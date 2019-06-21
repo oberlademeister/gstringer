@@ -84,7 +84,7 @@ func (t *T) RenderExTypeMaker(out io.Writer) {
 	{
 		var buf bytes.Buffer
 		for _, v := range t.Values {
-			fmt.Fprintf(&buf, "  %q: %s,\n", strings.ToLower(v.Symbol), v.Symbol)
+			fmt.Fprintf(&buf, "  %q: %s,\n", strings.ToLower(v.VerboseDescription), v.Symbol)
 		}
 		descrLC = buf.String()
 	}
