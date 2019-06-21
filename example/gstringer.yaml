@@ -1,0 +1,12 @@
+name: ExType
+typedescription: "is an example type"
+unknowndescription: "unknown type"
+filename: extype_generated.go
+packagename: main
+values:
+  - symbol: C1
+    verbosedescription: "C1 Balu Balu"
+    index: 0
+  - symbol: C2
+    verbosedescription: "C1 Bali Bali"
+    index: 1
