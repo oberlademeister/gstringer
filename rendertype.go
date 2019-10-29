@@ -98,8 +98,8 @@ type {0}Maker struct {
 	fromDescriptionLowerCase map[string]{0}
 }
 
-// NewExTypeMaker initialises an ExTypeFactory
-func NewExTypeMaker() *{0}Maker {
+// New{0}Maker initialises an ExTypeFactory
+func New{0}Maker() *{0}Maker {
 	return &{0}Maker{
 		fromSymbol: map[string]{0}{
 {1}
